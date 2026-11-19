@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' blob:; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; require-trusted-types-for 'script'; trusted-types 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex">
+  <title>Opening…</title>
+  <link rel="icon" href="assets/favicon.svg?v=f7c6d087f0e1" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css?v=f7c6d087f0e1">
+  <script type="module" src="assets/app-host.js?v=f7c6d087f0e1"></script>
+</head>
+<body>
+  <header class="topbar">
+    <span class="brand">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect class="bm-bg" x="3" y="3" width="26" height="26" rx="6"/><path class="bm-line" d="M3 10.5h26M12.5 10.5v18.5"/><rect class="bm-cell" x="15.5" y="14" width="10" height="3" rx="1"/><rect class="bm-cell bm-hot" x="15.5" y="19.5" width="10" height="3" rx="1"/><rect class="bm-cell" x="6.5" y="14" width="3" height="3" rx="1"/><rect class="bm-cell" x="6.5" y="19.5" width="3" height="3" rx="1"/><rect class="bm-cell" x="15.5" y="25" width="6" height="2" rx="1"/></svg>
+      <span id="brand-name"></span>
+    </span>
+    <div id="user" class="user" hidden>
+      <span id="user-name" class="user-name"></span>
+      <a class="btn btn-ghost btn-sm" href="../home.html">Dashboard</a>
+      <a class="btn btn-ghost btn-sm" href="../index.html?signout=1">Sign out</a>
+    </div>
+  </header>
+
+  <div id="notices" class="notices" aria-live="polite"></div>
+  <div id="app"><p class="loading">Opening…</p></div>
+</body>
+</html>
